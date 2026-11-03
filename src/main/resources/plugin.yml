@@ -1,0 +1,10 @@
+name: CMBI
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  cmbi:random:
+    description: Executes a random command from an impulse command block.
+    usage: /cmbi:random
+    permission: cmbi.random
+    permission-message: You do not have permission to use this command.
